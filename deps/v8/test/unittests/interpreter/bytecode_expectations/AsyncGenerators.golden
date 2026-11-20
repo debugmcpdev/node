@@ -70,7 +70,7 @@ bytecodes: [
                 B(Mov), R(0), R(6),
                 B(Mov), R(2), R(7),
                 B(InvokeIntrinsic), U8(Runtime::k_AsyncGeneratorResolve), R(6), RegCount8(3),
-                B(Return),
+  /*   22 S> */ B(Return),
                 B(Ldar), R(2),
                 B(Return),
 ]
@@ -168,7 +168,7 @@ bytecodes: [
                 B(Mov), R(0), R(6),
                 B(Mov), R(2), R(7),
                 B(InvokeIntrinsic), U8(Runtime::k_AsyncGeneratorResolve), R(6), RegCount8(3),
-                B(Return),
+  /*   31 S> */ B(Return),
                 B(Ldar), R(2),
                 B(Return),
 ]
@@ -334,7 +334,7 @@ bytecodes: [
                 B(Mov), R(0), R(9),
                 B(Mov), R(5), R(10),
                 B(InvokeIntrinsic), U8(Runtime::k_AsyncGeneratorResolve), R(9), RegCount8(3),
-                B(Return),
+  /*   50 S> */ B(Return),
                 B(Ldar), R(5),
                 B(Return),
 ]
@@ -545,7 +545,7 @@ bytecodes: [
                 B(Mov), R(0), R(6),
                 B(Mov), R(2), R(7),
                 B(InvokeIntrinsic), U8(Runtime::k_AsyncGeneratorResolve), R(6), RegCount8(3),
-                B(Return),
+  /*   60 S> */ B(Return),
                 B(Ldar), R(2),
                 B(Return),
 ]
